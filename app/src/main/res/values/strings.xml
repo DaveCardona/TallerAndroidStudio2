@@ -13,4 +13,6 @@
     <string name="confirmar_contrase_a">Confirmar Contraseña</string>
     <string name="correo_electr_nico">Correo Electrónico</string>
     <string name="ya_tienes_una_cuenta_inicia_sesi_n_aqu">¿Ya tienes una cuenta? Inicia Sesión Aquí</string>
+    <string name="registrate">Regístrate</string>
+    <string name="no_tienes_cuenta">No tienes cuenta?</string>
 </resources>

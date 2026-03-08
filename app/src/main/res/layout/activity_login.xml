@@ -179,7 +179,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/tiro_devanagari_hindi"
-            android:text="No tienes cuenta?"
+            android:text="@string/no_tienes_cuenta"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 

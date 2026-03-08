@@ -62,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
         android:fontFamily="@font/tiro_devanagari_hindi"
-        android:text="Regístrate"
+        android:text="@string/registrate"
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"/>
