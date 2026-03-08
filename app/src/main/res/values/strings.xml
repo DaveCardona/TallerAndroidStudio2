@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Taller 2</string>
+    <string name="TituloApp">LuminuxApp</string>
+    <string name="mensaje_inicio">Inicia una nueva aventura con \nLuminuxApp y descubre una \nnueva forma de ver el mundo.</string>
+    <string name="mensajelogin">La aventura está por iniciar,\nPor favor inicia sesión</string>
+    <string name="Nombre">Nombre</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="ingresa_con_google">Ingresa Con Google</string>
+    <string name="reg_strate">Regístrate</string>
+    <string name="Texto_Ingresar">Ingresar</string>
+    <string name="recupera_contrasena">Recupera tu Contraseña</string>
+</resources>

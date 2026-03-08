@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/Background_primary"
+    tools:context=".Activities.AventureActivity">
+
+    <ImageView
+        android:id="@+id/id_logo_inicio"
+        android:layout_width="338dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="180dp"
+        app:srcCompat="@mipmap/ic_launcher_foreground"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/id_nombre_app"
+        android:layout_width="262dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/tiro_devanagari_hindi"
+        android:text="@string/TituloApp"
+        android:textAlignment="center"
+        android:textColor="@color/ClorBasic"
+        android:textSize="40sp"
+        android:textStyle="bold"
+       tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/id_creator_inicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:text="David Cardona"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
