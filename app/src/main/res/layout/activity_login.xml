@@ -12,7 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:gravity="center_vertical"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:paddingTop="60dp">
 
         <ImageView
             android:id="@+id/id_logo_login"
@@ -37,7 +38,8 @@
         android:layout_width="286dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
 
 
         <TextView
@@ -57,7 +59,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="35dp"
         android:orientation="horizontal">
 
         <ImageView
@@ -106,7 +108,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="20dp"
+        android:paddingTop="35dp"
         android:gravity="center"
         android:orientation="vertical">
 
@@ -137,8 +139,9 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/white"
-            android:layout_marginTop="10dp">
+            android:background="@drawable/google_button"
+            android:layout_marginTop="25dp"
+            android:gravity="center">
 
             <ImageView
                 android:id="@+id/google"
@@ -152,9 +155,10 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/tiro_devanagari_hindi"
                 android:text="@string/ingresa_con_google"
-                android:textAlignment="viewEnd"
-                android:textColor="#050505"
-                android:textSize="28sp" />
+                android:textSize="28sp"
+                android:background="@android:color/transparent"
+                android:textColor="@color/black"
+                app:backgroundTint="@null"/>
 
 
         </LinearLayout>
