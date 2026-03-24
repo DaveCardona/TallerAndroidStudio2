@@ -11,27 +11,39 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Taller2">
+
+        <!-- 1. Pantalla de Carga (AventureActivity) -->
         <activity
-            android:name=".activity_register"
-            android:exported="false" />
-        <activity
-            android:name=".Activities.LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Activities.InicioActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Activities.AventureActivity"
+            android:name=".ui.inicio.AventureActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+
         </activity>
+
+        <!-- 2. Menú Principal (MainActivity) -->
+        <!-- NOTA: Si quieres iniciar directo aquí, mueve el <intent-filter> de arriba a este bloque
+             y cambia android:exported a true -->
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="false" >
+
+        </activity>
+
+        <activity
+            android:name=".ui.auth.RegisterActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ui.inicio.InicioActivity"
+            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"

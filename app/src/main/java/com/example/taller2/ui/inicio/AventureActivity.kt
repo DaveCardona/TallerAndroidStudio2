@@ -1,4 +1,4 @@
-package com.example.taller2.Activities
+package com.example.taller2.ui.inicio
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,10 +6,8 @@ import android.os.Handler
 import android.os.Looper
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.os.postDelayed
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.example.taller2.R
+import com.example.taller2.ui.inicio.InicioActivity
 
 
 class AventureActivity : AppCompatActivity() {

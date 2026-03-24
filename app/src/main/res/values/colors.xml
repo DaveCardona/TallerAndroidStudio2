@@ -5,4 +5,6 @@
     <color name="ClorBasic">#DF038F</color>
     <color name="Background_primary">#666666</color>
     <color name="hint_color">#000000</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Cian">#00BCD4</color>
 </resources>

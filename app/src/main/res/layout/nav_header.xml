@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background_primary"
+    android:padding="25dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo24"/>
+
+    <TextView
+        android:id="@+id/id_nombre_app_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/tiro_devanagari_hindi"
+        android:text="@string/TituloApp"
+        android:textAlignment="center"
+        android:textColor="@color/ClorBasic"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"/>
+
+</LinearLayout>

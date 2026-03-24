@@ -8,7 +8,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:background="@color/Background_primary"
-    tools:context=".Activities.AventureActivity">
+    tools:context=".ui.inicio.AventureActivity">
 
     <ImageView
         android:id="@+id/id_logo_inicio"
@@ -36,8 +36,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="68dp"
-        android:text="David Cardona"
-        android:textColor="#FFFFFF"
+        android:text="@string/My_Name"
+        android:textColor="@color/White"
         android:textSize="20sp"
         android:textStyle="bold" />
 

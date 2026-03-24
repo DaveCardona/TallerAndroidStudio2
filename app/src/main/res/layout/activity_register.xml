@@ -5,9 +5,9 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_register"
     android:background="@color/Background_primary"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".ui.auth.RegisterActivity">
 
 
     <LinearLayout
@@ -17,6 +17,7 @@
         android:gravity="center"
         android:orientation="vertical"
         android:paddingTop="45dp">
+
 
         <ImageView
             android:id="@+id/id_logo_registro"
@@ -51,134 +52,171 @@
             android:fontFamily="@font/tiro_devanagari_hindi"
             android:text="@string/bienvenido_al_formulario_de_registro"
             android:textAlignment="center"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/White"
             android:textSize="20sp"
             android:textStyle="bold" />
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="15dp"
-        android:orientation="vertical">
 
-        <EditText
-            android:id="@+id/id_nombre_usuario_registro"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_marginBottom="15dp"
-            android:background="@drawable/style_edit_text"
-            android:ems="10"
-            android:fontFamily="@font/tiro_devanagari_hindi"
-            android:hint="@string/Nombre"
-            android:inputType="text"
-            android:paddingStart="15dp"
-            android:textColor="@color/black"
-            android:textColorHint="@color/hint_color" />
-
-        <EditText
-            android:id="@+id/id_correo_usuario_registro"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_marginBottom="15dp"
-            android:background="@drawable/style_edit_text"
-            android:ems="10"
-            android:fontFamily="@font/tiro_devanagari_hindi"
-            android:hint="@string/correo_electr_nico"
-            android:inputType="text"
-            android:paddingStart="15dp"
-            android:textColor="@color/black"
-            android:textColorHint="@color/hint_color" />
-
-        <EditText
-            android:id="@+id/contraseña_usuario_registro"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:layout_marginBottom="15dp"
-            android:background="@drawable/style_edit_text"
-            android:ems="10"
-            android:fontFamily="@font/tiro_devanagari_hindi"
-            android:hint="@string/contrase_a"
-            android:inputType="text"
-            android:paddingStart="15dp"
-            android:paddingEnd="15dp"
-            android:textColor="@color/black"
-            android:textColorHint="@color/hint_color" />
-
-        <EditText
-            android:id="@+id/conf_contraseña_usuario_registro"
-            android:layout_width="350dp"
-            android:layout_height="50dp"
-            android:background="@drawable/style_edit_text"
-            android:ems="10"
-            android:fontFamily="@font/tiro_devanagari_hindi"
-            android:hint="@string/confirmar_contrase_a"
-            android:inputType="text"
-            android:paddingStart="15dp"
-            android:paddingEnd="15dp"
-            android:textColor="@color/black"
-            android:textColorHint="@color/hint_color" />
-
-    </LinearLayout>
-
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="25dp"
-        android:gravity="center"
-        android:orientation="vertical">
-
-
-        <Button
-            android:id="@+id/id_boton_registrarse"
-            android:layout_width="291dp"
-            android:layout_height="60dp"
-            android:background="@drawable/button_border"
-            android:fontFamily="@font/tiro_devanagari_hindi"
-            android:text="Registrarse"
-            android:textAlignment="center"
-            android:orientation='vertical'
-            android:textSize="30sp"
-            android:textStyle="bold"
-            app:backgroundTint="@null" />
-
-        <TextView
-            android:id="@+id/id_ir_a_login"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/tiro_devanagari_hindi"
-            android:text="@string/ya_tienes_una_cuenta_inicia_sesi_n_aqu"
-            android:textColor="#FFFFFF"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+        android:fillViewport="true">
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/google_button"
-            android:layout_marginTop="20dp"
-            android:gravity="center">
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
 
-            <ImageView
-                android:id="@+id/google"
-                android:layout_width="62dp"
-                android:layout_height="59dp"
-                app:srcCompat="@drawable/logogoogle" />
 
-            <Button
-                android:id="@+id/IngresoGoogle"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/tiro_devanagari_hindi"
-                android:text="@string/ingresa_con_google"
-                android:textSize="28sp"
-                android:background="@android:color/transparent"
-                android:textColor="@color/black"
-                app:backgroundTint="@null"/>
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/id_nombre_usuario_registro"
+                    android:layout_width="350dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/style_edit_text"
+                    android:ems="10"
+                    android:fontFamily="@font/tiro_devanagari_hindi"
+                    android:hint="@string/Nombre"
+                    android:inputType="text"
+                    android:paddingStart="15dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/hint_color" />
+
+
+                <EditText
+                    android:id="@+id/id_correo_usuario_registro"
+                    android:layout_width="350dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/style_edit_text"
+                    android:ems="10"
+                    android:fontFamily="@font/tiro_devanagari_hindi"
+                    android:hint="@string/correo_electr_nico"
+                    android:inputType="text"
+                    android:paddingStart="15dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/hint_color" />
+
+                <EditText
+                    android:id="@+id/id_conf_correo_usuario_registro"
+                    android:layout_width="350dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/style_edit_text"
+                    android:ems="10"
+                    android:fontFamily="@font/tiro_devanagari_hindi"
+                    android:hint="@string/confirmar_correo_electr_nico"
+                    android:inputType="text"
+                    android:paddingStart="15dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/hint_color" />
+
+                <EditText
+                    android:id="@+id/id_contraseña_usuario_registro"
+                    android:layout_width="350dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/style_edit_text"
+                    android:ems="10"
+                    android:fontFamily="@font/tiro_devanagari_hindi"
+                    android:hint="@string/contrase_a"
+                    android:inputType="text"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/hint_color" />
+
+                <EditText
+                    android:id="@+id/id_conf_contraseña_usuario_registro"
+                    android:layout_width="350dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/style_edit_text"
+                    android:ems="10"
+                    android:fontFamily="@font/tiro_devanagari_hindi"
+                    android:hint="@string/confirmar_contrase_a"
+                    android:inputType="text"
+                    android:paddingStart="15dp"
+                    android:paddingEnd="15dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/hint_color" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingTop="25dp">
+
+
+                <Button
+                    android:id="@+id/id_boton_registrarse"
+                    android:layout_width="291dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/button_border"
+                    android:fontFamily="@font/tiro_devanagari_hindi"
+                    android:orientation='vertical'
+                    android:text="Registrarse"
+                    android:textAlignment="center"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="@null" />
+
+                <TextView
+                    android:id="@+id/id_ir_a_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/tiro_devanagari_hindi"
+                    android:text="@string/ya_tienes_una_cuenta_inicia_sesi_n_aqu"
+                    android:textColor="@color/White"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/google_button"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/google"
+                        android:layout_width="62dp"
+                        android:layout_height="59dp"
+                        app:srcCompat="@drawable/logogoogle" />
+
+                    <Button
+                        android:id="@+id/IngresoGoogle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:fontFamily="@font/tiro_devanagari_hindi"
+                        android:text="@string/ingresa_con_google"
+                        android:textColor="@color/black"
+                        android:textSize="28sp"
+                        app:backgroundTint="@null" />
+                </LinearLayout>
+            </LinearLayout>
+
         </LinearLayout>
-    </LinearLayout>
+
+    </ScrollView>
+
 
 </LinearLayout>
+
+

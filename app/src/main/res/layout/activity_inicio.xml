@@ -8,7 +8,7 @@
     android:gravity="center"
     android:orientation="vertical"
     android:background="@color/Background_primary"
-    tools:context=".Activities.InicioActivity">
+    tools:context=".ui.inicio.InicioActivity">
 
     <ImageView
         android:id="@+id/id_logo_inicio"
@@ -39,7 +39,7 @@
         android:fontFamily="@font/tiro_devanagari_hindi"
         android:text="@string/mensaje_inicio"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/White"
         android:textSize="24sp"
         android:textStyle="bold" />
 
@@ -50,7 +50,7 @@
         android:layout_marginTop="44dp"
         android:background="@drawable/button_border"
         android:fontFamily="@font/tiro_devanagari_hindi"
-        android:text="Comienza"
+        android:text="@string/comienza_buttom"
         android:textAlignment="center"
         android:textSize="34sp"
         android:textStyle="bold"
@@ -63,7 +63,7 @@
         android:layout_marginTop="52dp"
         android:fontFamily="@font/tiro_devanagari_hindi"
         android:text="@string/registrate"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/White"
         android:textSize="24sp"
         android:textStyle="bold"/>
 

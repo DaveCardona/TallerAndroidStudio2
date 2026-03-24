@@ -15,4 +15,16 @@
     <string name="ya_tienes_una_cuenta_inicia_sesi_n_aqu">¿Ya tienes una cuenta? Inicia Sesión Aquí</string>
     <string name="registrate">Regístrate</string>
     <string name="no_tienes_cuenta">No tienes cuenta?</string>
+    <string name="My_Name">David Cardona</string>
+    <string name="comienza_buttom">Comienza</string>
+    <string name="Apellidos">Apellidos</string>
+    <string name="confirmar_correo_electr_nico">Confirmar Correo Electrónico</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inicio">Inicio</string>
+    <string name="cat_logo">Catálogo</string>
+
+    <!-- Recursos necesarios para el Drawer de MainActivity -->
+    <string name="navigation_drawer_open">Abrir menú lateral</string>
+    <string name="navigation_drawer_close">Cerrar menú lateral</string>
 </resources>

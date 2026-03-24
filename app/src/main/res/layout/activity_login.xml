@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/Background_primary"
@@ -49,7 +50,7 @@
             android:fontFamily="@font/tiro_devanagari_hindi"
             android:text="@string/mensajelogin"
             android:textAlignment="center"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/White"
             android:textSize="23sp"
             android:textStyle="bold" />
 
@@ -132,7 +133,7 @@
             android:layout_marginTop="24dp"
             android:fontFamily="@font/tiro_devanagari_hindi"
             android:text="@string/recupera_contrasena"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/White"
             android:textSize="24sp"
             android:textStyle="bold" />
 
@@ -180,7 +181,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/tiro_devanagari_hindi"
             android:text="@string/no_tienes_cuenta"
-            android:textColor="#FFFFFF"
+            android:textColor="@color/White"
             android:textSize="20sp" />
 
         <TextView
@@ -190,10 +191,9 @@
             android:fontFamily="@font/tiro_devanagari_hindi"
             android:paddingLeft="10dp"
             android:text="@string/reg_strate"
-            android:textColor="#00BCD4"
+            android:textColor="@color/Cian"
             android:textSize="20sp" />
 
     </LinearLayout>
 
 </LinearLayout>
-
