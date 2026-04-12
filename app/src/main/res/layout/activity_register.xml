@@ -93,6 +93,20 @@
                     android:textColor="@color/black"
                     android:textColorHint="@color/hint_color" />
 
+                <EditText
+                    android:id="@+id/id_apellidos_usuario_registro"
+                    android:layout_width="350dp"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="15dp"
+                    android:background="@drawable/style_edit_text"
+                    android:ems="10"
+                    android:fontFamily="@font/tiro_devanagari_hindi"
+                    android:hint="@string/apellidos"
+                    android:inputType="text"
+                    android:paddingStart="15dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/hint_color" />
+
 
                 <EditText
                     android:id="@+id/id_correo_usuario_registro"
@@ -103,20 +117,6 @@
                     android:ems="10"
                     android:fontFamily="@font/tiro_devanagari_hindi"
                     android:hint="@string/correo_electr_nico"
-                    android:inputType="text"
-                    android:paddingStart="15dp"
-                    android:textColor="@color/black"
-                    android:textColorHint="@color/hint_color" />
-
-                <EditText
-                    android:id="@+id/id_conf_correo_usuario_registro"
-                    android:layout_width="350dp"
-                    android:layout_height="50dp"
-                    android:layout_marginBottom="15dp"
-                    android:background="@drawable/style_edit_text"
-                    android:ems="10"
-                    android:fontFamily="@font/tiro_devanagari_hindi"
-                    android:hint="@string/confirmar_correo_electr_nico"
                     android:inputType="text"
                     android:paddingStart="15dp"
                     android:textColor="@color/black"
@@ -150,6 +150,15 @@
                     android:paddingEnd="15dp"
                     android:textColor="@color/black"
                     android:textColorHint="@color/hint_color" />
+
+                <TextView
+                    android:id="@+id/id_txtTerminos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/tiro_devanagari_hindi"
+                    android:text="@string/aceptar_t_rminos_y_condiciones"
+                    android:textColor="@color/White"
+                    android:textSize="14sp" />
 
             </LinearLayout>
 

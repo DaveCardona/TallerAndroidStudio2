@@ -27,4 +27,9 @@
     <!-- Recursos necesarios para el Drawer de MainActivity -->
     <string name="navigation_drawer_open">Abrir menú lateral</string>
     <string name="navigation_drawer_close">Cerrar menú lateral</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="aceptar_t_rminos_y_condiciones">Aceptar Términos Y Condiciones</string>
+    <string name="productos_destacados">Productos Destacados</string>
+    <string name="imagen_del_producto">Imagen Del Producto</string>
+    <string name="agregar_al_carrito">Agregar Al Carrito</string>
 </resources>
