@@ -151,8 +151,8 @@
                     android:textColor="@color/black"
                     android:textColorHint="@color/hint_color" />
 
-                <TextView
-                    android:id="@+id/id_txtTerminos"
+                <CheckBox
+                    android:id="@+id/id_checkTerminos"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/tiro_devanagari_hindi"
@@ -227,5 +227,3 @@
 
 
 </LinearLayout>
-
-
