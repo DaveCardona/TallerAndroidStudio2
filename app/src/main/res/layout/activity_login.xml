@@ -51,7 +51,7 @@
             android:text="@string/mensajelogin"
             android:textAlignment="center"
             android:textColor="@color/White"
-            android:textSize="23sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -66,7 +66,7 @@
         <ImageView
             android:id="@+id/id_iconos_login"
             android:layout_width="84dp"
-            android:layout_height="149dp"
+            android:layout_height="139dp"
             app:srcCompat="@drawable/iconoslogin" />
 
         <LinearLayout
@@ -79,7 +79,7 @@
             <EditText
                 android:id="@+id/id_nombre_usuario_login"
                 android:layout_width="265dp"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:layout_marginBottom="25dp"
                 android:background="@drawable/style_edit_text"
                 android:ems="10"
@@ -93,7 +93,7 @@
             <EditText
                 android:id="@+id/id_contraseña_usuario_login"
                 android:layout_width="265dp"
-                android:layout_height="50dp"
+                android:layout_height="40dp"
                 android:background="@drawable/style_edit_text"
                 android:ems="10"
                 android:fontFamily="@font/tiro_devanagari_hindi"
@@ -117,14 +117,24 @@
         <Button
             android:id="@+id/id_boton_ingresar"
             android:layout_width="291dp"
-            android:layout_height="68dp"
+            android:layout_height="50dp"
             android:background="@drawable/button_border"
             android:fontFamily="@font/tiro_devanagari_hindi"
             android:text="@string/Texto_Ingresar"
             android:textAlignment="center"
-            android:textSize="34sp"
+            android:textSize="25sp"
             android:textStyle="bold"
             app:backgroundTint="@null" />
+
+        <TextView
+            android:id="@+id/id_in_huella"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tiro_devanagari_hindi"
+            android:paddingTop="20dp"
+            android:text="@string/ingresar_con_huella"
+            android:textColor="@color/ClorBasic"
+            android:textSize="22sp" />
 
         <TextView
             android:id="@+id/id_recupera_contraseña"
@@ -134,7 +144,7 @@
             android:fontFamily="@font/tiro_devanagari_hindi"
             android:text="@string/recupera_contrasena"
             android:textColor="@color/White"
-            android:textSize="24sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <LinearLayout
@@ -147,7 +157,7 @@
             <ImageView
                 android:id="@+id/google"
                 android:layout_width="62dp"
-                android:layout_height="59dp"
+                android:layout_height="50dp"
                 app:srcCompat="@drawable/logogoogle" />
 
             <Button
@@ -156,7 +166,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/tiro_devanagari_hindi"
                 android:text="@string/ingresa_con_google"
-                android:textSize="28sp"
+                android:textSize="25sp"
                 android:background="@android:color/transparent"
                 android:textColor="@color/black"
                 app:backgroundTint="@null"/>
@@ -164,15 +174,7 @@
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/id_in_huella"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/tiro_devanagari_hindi"
-            android:paddingTop="20dp"
-            android:text="@string/ingresar_con_huella"
-            android:textColor="@color/ClorBasic"
-            android:textSize="25sp" />
+
 
     </LinearLayout>
 
