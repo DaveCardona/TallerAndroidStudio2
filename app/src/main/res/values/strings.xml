@@ -36,4 +36,5 @@
     <string name="guardar">Guardar</string>
     <string name="guardar_cambios">Guardar Cambios</string>
     <string name="perfil_de_usuario">Perfil De Usuario</string>
+    <string name="ingresar_con_huella">Ingresar Con Huella</string>
 </resources>

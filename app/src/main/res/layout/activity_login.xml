@@ -91,7 +91,7 @@
                 android:textColorHint="@color/hint_color" />
 
             <EditText
-                android:id="@+id/contraseña_usuario_login"
+                android:id="@+id/id_contraseña_usuario_login"
                 android:layout_width="265dp"
                 android:layout_height="50dp"
                 android:background="@drawable/style_edit_text"
@@ -151,7 +151,7 @@
                 app:srcCompat="@drawable/logogoogle" />
 
             <Button
-                android:id="@+id/IngresoGoogle"
+                android:id="@+id/btn_IngresoGoogle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/tiro_devanagari_hindi"
@@ -163,7 +163,20 @@
 
 
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/id_in_huella"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/tiro_devanagari_hindi"
+            android:paddingTop="20dp"
+            android:text="@string/ingresar_con_huella"
+            android:textColor="@color/ClorBasic"
+            android:textSize="25sp" />
+
     </LinearLayout>
+
+
 
     <LinearLayout
         android:id="@+id/layout_ir_registro"
